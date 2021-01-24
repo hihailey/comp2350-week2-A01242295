@@ -4,10 +4,10 @@ const http = require('http');
 const port = process.env.PORT || 3000;
 
 const dbConfig = {
-	host: "host",
-	user: "user",
-	password: "password",
-	database: "database",
+	host: "us-cdbr-east-03.cleardb.com",
+	user: "b88a0c27d3b2a7",
+	password: "f4f1af06",
+	database: "heroku_976cc6d26ee83b0",
 	multipleStatements: false,
 	reconnect: true
 };
